@@ -9,7 +9,7 @@ with col3:
 
 with col2:
     st.image(
-    "https://freelogopng.com/images/all_img/1657548367Facebook-logo.png",
+    "https://github.com/MTA-BD/fishb/blob/main/hcrbin%20-%20Copy/fb.png?raw=true",
     width=175,
     channels="RGB"
     )
