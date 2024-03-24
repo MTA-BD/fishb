@@ -20,8 +20,6 @@ with col2:
 #logo=image.open("G.png")
 
 
-import streamlit as st  # pip install streamlit
-
 # Center align the header
 st.markdown("<h2 style='text-align: center; color: black;'>Sign in</h1>", unsafe_allow_html=True)
 
